@@ -1,0 +1,68 @@
+.submitbutton {
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.submitbutton:focus {
+    outline: none;
+}
+
+a.button,
+.submitbutton {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    background-color: #CCCCCC;
+    text-align: center;
+    position: relative;
+    user-select: none;
+}
+
+a.button:hover,
+.submitbutton:hover {
+    border-color: #7a7a7a;
+}
+
+a.button:active,
+.submitbutton:active {
+    background-color: #999999;
+}
+
+@media all and (max-width:30em) {
+    a.button,
+    .submitbutton {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+:root {
+    --link-color: steelblue;
+}
+
+html {
+    background-color: whitesmoke
+}
+
+ul#horizonal * {
+    display: inline;
+}
+
+strong.token {
+    font-family: monospace;
+    font-weight: bold;
+}
